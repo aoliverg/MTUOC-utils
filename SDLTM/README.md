@@ -1,4 +1,4 @@
-#MTUOC utils SDLTM
+# MTUOC utils SDLTM
 
 MTUOC scripts and programs to export SDLTM files to tab txt. Command line and GUI versions are distributed. 
 
@@ -6,7 +6,7 @@ The program are available as Pyhton v.3 code and as executable files for Windows
 
 To get the help for the Command line versions use the oprion -h
 
-##MTUOC-sdltmt2tabtxt
+## MTUOC-sdltmt2tabtxt
 
 Exports a single SDLTM file to tab txt. The following versions are distributed:
 
@@ -17,7 +17,7 @@ Exports a single SDLTM file to tab txt. The following versions are distributed:
 * MTUOC-sdltm2tabtxt-GUI: the Linux executable of the version with Graphical User Interface.
 * MTUOC-sdltm2tabtxt-GUI.exe: the Windows executable of the version with Graphical User Interface.
 
-##MTUOC-sdltmt2tabtxtDIR
+## MTUOC-sdltmt2tabtxtDIR
 
 Exports a all the SDLTM files in a given directory to a single tab txt file. The following versions are distributed:
 
