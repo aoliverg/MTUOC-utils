@@ -74,7 +74,7 @@ rules = srx_segmenter.parse(srxfile)
 
 
 
-entrada=codecs.open(infile,"r",encoding="utf-8")
+entrada=codecs.open(infile,"r",encoding="utf-8",errors="ignore")
 sortida=codecs.open(outfile,"w",encoding="utf-8")
 for linia in entrada:
     segments=segmenta(linia)

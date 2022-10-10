@@ -19,7 +19,6 @@ import argparse
 import sys
 import re
 import codecs
-import nltk
 import glob
 import os
 import srx_segmenter
@@ -80,7 +79,7 @@ for r, d, f in os.walk(inDir):
         if file.endswith('.txt'):
             fullpath=os.path.join(r, file)            
             print(fullpath)
-            entrada=codecs.open(fullpath,"r",encoding="utf-8")
+            entrada=codecs.open(fullpath,"r",encoding="utf-8",errors="ignore")
             outfile=fullpath.replace(inDir,outDir)
             print(outfile)
             sortida=codecs.open(outfile,"w",encoding="utf-8")
